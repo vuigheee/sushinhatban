@@ -1,0 +1,385 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+    font-size: 14px;
+    font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+    
+}
+.container
+{
+    width:1525px;
+    height:auto;
+    background:#D1CDCD;
+}
+.header
+{
+    width: 100%;
+    height:950px;
+    background:url("../images/sushi-sushi-rolly-sous-vassabi-imbir-set-japanese-food-paloc.jpg");
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+}
+.timkiem
+{
+    width: 500px;
+    height:100px;
+    background:#FFFFFF;
+    border-radius: 10px;
+    position: absolute;
+    top:800px;
+    left:100px;
+}
+.header .timkiem input
+{
+    width: 400px;
+    height: 100px;
+    border-bottom-left-radius: 10px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    font-size: 20px;
+}
+.header .timkiem button
+{
+  width: 100px;
+  height:100px;
+  float: right;
+}
+.header .timkiem button img
+{
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.logo
+{
+    width: 30%;
+    height: 70px;
+    float: left;
+    box-sizing: border-box;
+}
+.logo img
+{
+    width: 70px;
+    height:70px;
+    padding: 10px 0px 0px 70px;
+   
+}
+.menu
+{
+    width: 70%;
+    height: 70px;
+    float: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+    
+}
+.menu ul li
+{
+    float:left;
+    padding: 15px 54px;
+    position: relative;
+    
+}
+.menu ul li a
+{
+   text-decoration: none;
+    color: aliceblue;
+}
+.menu ul
+{
+   list-style: none;
+}
+.menu ul li:hover
+{
+   background: #F13A6D;
+}
+.menu ul li ul
+{
+    position: absolute;
+    left: -40px;
+    top: 50px;
+    visibility: hidden;
+}
+.menu ul li ul li
+{
+    width:auto;
+}
+.menu ul li:hover ul
+{
+    visibility: visible;
+}
+.mi
+{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+       
+}
+.mid
+{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    padding-top: 120px;
+    box-sizing: border-box;
+    
+}
+.mid1
+{
+    width: 300px;
+    height:250px;
+    float: left;
+    box-sizing: border-box;
+    margin: 0px 60px 0px 125px;
+    display: flex;
+    text-align: center;
+    j
+    
+}
+
+
+.mid1 img
+{
+    width: 100px;
+    height: 100px;
+   
+}
+.mid1 a
+{
+    text-decoration: none;
+    color: black;
+   
+}
+.giua
+{
+    width: 100%;
+    height: 600px;
+    
+}
+
+.giua img
+{
+    width:50%;
+    height: 100%;
+    box-sizing: border-box;
+    float: left;
+}
+.giua1
+{
+    width:50%;
+    height: 350px;
+    float: right;
+    padding: 100px;
+    box-sizing: border-box;
+    background: #EDE1E2;
+       
+}
+.giua1 .trua
+{
+   color: black;
+   
+}
+.chuatim
+{
+    width: 50%;
+    height: 250px;
+    float: right;
+    background:  #EDE1E2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+.tim
+{
+    width:200px;
+    height:70px;
+    background:#F3ECED;
+    position: absolute;
+    border-radius: 10px;
+    top:50px;
+    
+}
+
+.lin 
+{
+    text-align: center;
+    padding-top: 25px;
+}
+.lin a
+{
+    text-decoration: none;
+    color: black;
+}
+.cuoi
+{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.cuoi .box
+{
+    width: 300px;
+    height:300px;
+    background:#706537;
+    position: relative;
+    margin:40px ;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.cuoi .box .imgbox
+{
+    position: relative;
+    overflow: hidden;
+}
+.cuoi .box .imgbox img
+{
+    max-width: 100%;
+    transition: transform 2s;
+}
+.cuoi .box:hover .imgbox img
+{
+    transform: scale(1.2)
+}
+.cuoi .box .data
+{
+    position: absolute;
+    top:10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,0.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.cuoi .box:hover .data
+{
+    transform: scaleY(1);
+}
+.cuoi .box .data .chu
+{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: aliceblue;
+}
+.cuoi .box .data .chu h1
+{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+}
+.cuoi .box .data .chu p
+{
+    margin: 10px 0 0;
+    padding: 0;
+    
+}
+.text
+{
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    width: 100%;
+    height: 150px;
+    box-sizing: border-box;
+}
+.vuong
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 100px 30px;
+    box-sizing: border-box;
+}
+.vuong .car
+{
+    max-width: 300px;
+    height: 215px;
+    position: relative;
+    background: #FFFFFF;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+    transition: 0.3s ease-in-out;
+    z-index: 1;
+     
+}
+.vuong .car:hover
+{
+    height: 420px;
+}
+.vuong .car .imgbx
+{
+    position: relative;
+    width: 260px;
+    height: 260px;
+    top: -60px;
+    left: 20px;
+    z-index: -1;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+  
+}
+.vuong .car .imgbx img
+{
+    max-width: 100%;
+    border border-radius: 4px;
+}
+.vuong .car .conten
+{
+    position: relative;
+    margin-top: -140px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #000000;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+.vuong .car:hover .conten
+{
+    visibility: visible;
+    opacity: 1;
+    margin-top: -40px;
+    transition-delay: 0.3s;
+}
+.thongtin
+{
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+}
+.tin1
+{
+    width: 50%;
+    height: 500px;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    float: left;
+}
+.video
+{
+    width: 50%;
+    height: 500px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    
+
